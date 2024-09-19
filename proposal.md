@@ -3,7 +3,7 @@
 ## Project Title: Predicting Solar Output Using Weather Data
 Capstone Project under Dr Chaoji Wang - Fall 2024 Semester
 - Author: Sai Teja Gunamoni
-- GitHub:
+- GitHub: https://github.com/SaiTejaGunamoni
 
 ## Overview:
 
