@@ -21,7 +21,7 @@ With the help of weather data, solar output can be predicted using this dataset.
 
 Time-series data for the United States and other countries at a 30-minute resolution can be found in the National Solar Radiation Database (NSRDB), a comprehensive collection of meteorological and solar irradiance data. It includes important variables like temperature, wind speed, and other meteorological parameters, as well as surface cells that span an area of about 4 km in size. Examples of these include global horizontal irradiance (GHI), direct normal irradiance (DNI), and diffuse horizontal irradiance (DHI).
 
-### Research Questions
+## Research Questions
 - Which algorithms are the most efficient for weather-derived predictions ?
 - What weather features are the most influential in the ML algorithms?
 
@@ -63,7 +63,7 @@ Time-series data for the United States and other countries at a 30-minute resolu
 •	Vict Descent - Descent Code: A - Other Asian B - Black C - Chinese D - Cambodian F - Filipino G - Guamanian H - Hispanic/Latin/Mexican I - American Indian/Alaskan Native J - Japanese K - Korean L - Laotian O - Other P - Pacific Islander S - Samoan U - Hawaiian V - Vietnamese W - White X - Unknown Z - Asian Indian 
 
 ## Methodology 
-### Data Preprocessing:
+#### Data Preprocessing:
 - Handle missing values (e.g., imputation).
 - Normalize or standardize features for consistency.
 - Explore correlations between variables to identify significant features.
@@ -74,10 +74,10 @@ Time-series data for the United States and other countries at a 30-minute resolu
 - Support Vector Machines (SVM)
 - Neural Networks
 - Evaluate performance metrics (e.g., mean squared error, R-squared) to select the optimal model.
-### Model Training:
+#### Model Training:
 - Split the dataset into training and testing sets.
 - Train the chosen model using the training data.
-### Model Evaluation:
+#### Model Evaluation:
 - Evaluate the model's performance on the testing set.
 - Fine-tune hyperparameters as needed.
 
