@@ -62,15 +62,25 @@ Time-series data for the United States and other countries at a 30-minute resolu
 
 •	Vict Descent - Descent Code: A - Other Asian B - Black C - Chinese D - Cambodian F - Filipino G - Guamanian H - Hispanic/Latin/Mexican I - American Indian/Alaskan Native J - Japanese K - Korean L - Laotian O - Other P - Pacific Islander S - Samoan U - Hawaiian V - Vietnamese W - White X - Unknown Z - Asian Indian 
 
-
-## Techniques and Models:
+## Methodology 
+### Data Preprocessing:
+- Handle missing values (e.g., imputation).
+- Normalize or standardize features for consistency.
+- Explore correlations between variables to identify significant features.
+- Model Selection:
+- Consider various machine learning algorithms:
+- Linear Regression
+- Random Forest
+- Support Vector Machines (SVM)
 - Neural Networks
-- ARIMA
-- LSTM
-- Random forest
-- Gradient Boosting
-- Linear Regression 
-- Decision Tree Classifier
+- Evaluate performance metrics (e.g., mean squared error, R-squared) to select the optimal model.
+### Model Training:
+- Split the dataset into training and testing sets.
+- Train the chosen model using the training data.
+### Model Evaluation:
+- Evaluate the model's performance on the testing set.
+- Fine-tune hyperparameters as needed.
+
 
 ## Expected Outcome:
 
