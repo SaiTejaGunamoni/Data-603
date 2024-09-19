@@ -22,8 +22,8 @@ With the help of weather data, solar output can be predicted using this dataset.
 Time-series data for the United States and other countries at a 30-minute resolution can be found in the National Solar Radiation Database (NSRDB), a comprehensive collection of meteorological and solar irradiance data. It includes important variables like temperature, wind speed, and other meteorological parameters, as well as surface cells that span an area of about 4 km in size. Examples of these include global horizontal irradiance (GHI), direct normal irradiance (DNI), and diffuse horizontal irradiance (DHI).
 
 ### Research Questions
-1) Which algorithms are the most efficient for weather-derived predictions ?
-2) What weather features are the most influential in the ML algorithms?
+- Which algorithms are the most efficient for weather-derived predictions ?
+- What weather features are the most influential in the ML algorithms?
 
 ## Variables in dataset:
 
@@ -64,20 +64,13 @@ Time-series data for the United States and other countries at a 30-minute resolu
 
 
 ## Techniques and Models:
-
-• Neural Networks
-
-• ARIMA
-
-• LSTM
-
-• Random forest
-
-• Gradient Boosting
-
-• Linear Regression 
-
-• Decision Tree Classifier
+- Neural Networks
+- ARIMA
+- LSTM
+- Random forest
+- Gradient Boosting
+- Linear Regression 
+- Decision Tree Classifier
 
 ## Expected Outcome:
 
@@ -85,6 +78,6 @@ This project offers a data-driven method for predicting solar output, which adva
 
 ## References:
 
-http://www.ncdc.noaa.gov/
-https://nsrdb.nrel.gov/data-viewer
-Oeda S, Kurimoto I and Ichimura T 2006 Time series data classification using recurrent neural network with ensemble learning Lecture Notes Comput. Sci. 4253 742-8
+- http://www.ncdc.noaa.gov/
+- https://nsrdb.nrel.gov/data-viewer
+- Oeda S, Kurimoto I and Ichimura T 2006 Time series data classification using recurrent neural network with ensemble learning Lecture Notes Comput. Sci. 4253 742-8
