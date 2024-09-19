@@ -28,8 +28,32 @@ Time-series data for the United States and other countries at a 30-minute resolu
 - What is the optimal machine learning model for predicting solar output based on weather data?
 
 ## Variables in dataset:
+The dataset contains weather data collected from various sources. The data includes information on solar output, weather, date, and zip code. The predictions are based on a new approach that uses artificial intelligence to learn patterns from the data
+
+WBAN: 
+Date: 
+Time: 
+SkyCondition: 
+Visibility: 
+Temperature: The temperature at the time of the observation (Column Type: Integer)
+DewPoint: The dew point at the time of the observation (Column Type: Integer)
+WindSpeed: The wind speed at the time of the observation (Column Type: Integer)
+StationPressure: The station pressure at the time of the observation (Column Type: Integer)
+Altimeter: The altimeter at the time of the observation (Column Type: Integer)
 
 
+| **Column Name**                        | **Details**                                                                    |
+|----------------------------------------|------------------------------------------------------------------------------------|
+| `WBAN`                                 | Weather Bureau Air Force Navy (Column Type: Integer)                               |
+| `Date`                                 | The date of the observation (Column Type: Date)                                    |
+| `Time`                                 | The time of the observation (Column Type: Time)                                    |
+| `SkyCondition`                         | The visibility at the time of the observation (Column Type: Integer)               |
+| `Visibility`                           | The temperature at the time of the observation (Column Type: Integer)              |
+| `Temperature`                          | The temperature at the time of the observation (Column Type: Integer)              |
+| `DewPoint`                             | The dew point at the time of the observation (Column Type: Integer)                |
+| `WindSpeed`                            | The wind speed at the time of the observation (Column Type: Integer)               |
+| `StationPressure`                      | The station pressure at the time of the observation (Column Type: Integer)         |
+| `Altimeter`                            | The altimeter at the time of the observation (Column Type: Integer                 |
 
 ## Methodology 
 #### Data Preprocessing:
