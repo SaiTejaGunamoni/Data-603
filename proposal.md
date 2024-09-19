@@ -1,22 +1,29 @@
-# DRAFT PROPOSAL
+# PROJECT PROPOSAL
 
-## Project Title: LOS ANGELES CRIME DATA ANALYSIS
-
-Name: Naga Chandrika Bhamidi
-    
-Date: 09/18/2022
+## Project Title: Predicting Solar Output Using Weather Data
+Capstone Project under Dr Chaoji Wang - Fall 2024 Semester
+Author: Sai Teja Gunamoni
+GitHub:
 
 ## Overview:
 
-Los Angeles is located in southern California and is the second most populous city in the United States (second only to New York), as well as the heart of the film and television industries. According to the International Association of Crime Analysts (IACA), crime analysis is defined as a profession and process in which a set of quantitative and qualitative techniques are used to analyze data valuable to police agencies and their communities. It includes the analysis of crime and criminals, crime victims, disorder, quality of life issues, traffic issues, and internal police operations, and its results support criminal investigation and prosecution, patrol activities, crime prevention and reduction strategies, problem solving, and the evaluation of police efforts.
+With the global shift towards renewable energy sources, precise solar power generation forecasting has become crucial for effective grid management and energy planning. Our capstone project attempts to address the inherent variability of solar power generation by creating a machine learning model to predict solar energy output using weather data.
 
-This data set contains the "Los Angeles crime data history." A crime is an unlawful conduct, and we have heard about many sorts of crimes that have occurred in various locations. In this section, I will classify the Los Angeles crime report, which covers all sorts of crimes that are typed on paper, and therefore there may be some inaccuracies within the data. We have data from the year 2020 until the present.
+With the analysis of historical solar farm data, including hourly power generation readings and associated weather variables like wind speed, cloud cover, temperature, and solar irradiance I'll try to identify critical weather parameters that have a major impact on solar output by using thorough data preprocessing, exploratory data analysis, and feature engineering.
 
-## Dataset:
+I'll attempt to apply and contrast a variety of machine learning models, such as neural networks, ARIMA, LSTM, and Random Forest, Gradient Boosting, and Linear Regression. Cross-validation techniques will be employed to validate these models after they have been trained on a subset of the data. Metrics like Mean Absolute Error (MAE), Root Mean Square Error (RMSE), and R-squared values are used to assess performance.
 
-#### Data Source: https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8
+## Dataset and Description:
 
-This collection includes all legitimate felony, misdemeanor, and infraction offenses reported to the Los Angeles Police Department. The data set consist of 564162 rows and 28 columns which is collected from 2020 to present. Because the data set contains the most recent crime data, we can clearly analyze the reasons and links between the crimes by taking the victims' age, type of crime, and all the variables in the data set, which helps people to have a clear idea of how to protect or overcome the crimes and also police departments to prevent more crimes from occurring.
+#### Data Source: https://nsrdb.nrel.gov/data-viewer
+
+With the help of weather data, solar output can be predicted using this dataset.  The information on solar output, the weather, the date, and the time was gathered from a variety of sources. Previous weather patterns and data are the foundation for the solar output projections. Utilizing the dataset, one can train a model that forecasts solar output according to meteorological conditions.
+
+Time-series data for the United States and other countries at a 30-minute resolution can be found in the National Solar Radiation Database (NSRDB), a comprehensive collection of meteorological and solar irradiance data. It includes important variables like temperature, wind speed, and other meteorological parameters, as well as surface cells that span an area of about 4 km in size. Examples of these include global horizontal irradiance (GHI), direct normal irradiance (DNI), and diffuse horizontal irradiance (DHI).
+
+### Research Questions
+1) Which algorithms are the most efficient for weather-derived predictions ?
+2) What weather features are the most influential in the ML algorithms?
 
 ## Variables in dataset:
 
@@ -58,24 +65,26 @@ This collection includes all legitimate felony, misdemeanor, and infraction offe
 
 ## Techniques and Models:
 
-• Decision Tree Classifier
+• Neural Networks
+
+• ARIMA
+
+• LSTM
 
 • Random forest
 
-• Support vector machine
+• Gradient Boosting
 
-• Decision tree
+• Linear Regression 
 
-• K-nearest neighbor
+• Decision Tree Classifier
 
-• Logistic Regression
+## Expected Outcome:
 
-
-## Outcome:
-
-I would like to build the models using a pipeline and explain how ML models can be used to predict the exact location and weapons used against the victim in a crime. Using EDA, I want to find out and plot the top crime zones, which are the main areas where crimes have occurred, types of crimes, suspects' ages, suspects' gender, and the locations where the crimes are commonly committed.
+This project offers a data-driven method for predicting solar output, which advances the rapidly expanding field of renewable energy forecasting. The developed model may enhance the integration of solar power into the electrical grid and optimize energy distribution strategies. It is useful for solar plant operators, grid managers, and energy traders.
 
 ## References:
 
-https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8 https://medium.com/analytics-vidhya/los-angeles-crime-data-analysis-using-pandas-a68780d80a83
-https://bja.ojp.gov/sites/g/files/xyckuh186/files/media/document/OverviewofCrimeAnalysis.pdf
+http://www.ncdc.noaa.gov/
+https://nsrdb.nrel.gov/data-viewer
+Oeda S, Kurimoto I and Ichimura T 2006 Time series data classification using recurrent neural network with ensemble learning Lecture Notes Comput. Sci. 4253 742-8
